@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1069884013806",
+    "project_id": "drive-and-deliver-vehicle-game",
+    "storage_bucket": "drive-and-deliver-vehicle-game.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069884013806:android:651c83a0b297868a31c7ff",
+        "android_client_info": {
+          "package_name": "com.rsg.drive.deliver.vehicle.game"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCi-7Nypxab1hxrCev2AG5Db1B23Jz-uf8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

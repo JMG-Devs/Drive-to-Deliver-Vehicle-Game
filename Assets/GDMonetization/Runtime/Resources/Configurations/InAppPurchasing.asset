@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c93a12f5add57b43b01a9542d904852, type: 3}
+  m_Name: InAppPurchasing
+  m_EditorClassIdentifier: 
+  AdjustPurchaseVerification: 1
+  AdjustInAppToken: mcrz4v
+  AllProducts:
+  - {fileID: 11400000, guid: a33a6d9ebc6ec1641a307a0929c6ff18, type: 2}
+  - {fileID: 11400000, guid: 59fa21e0b6b3f7f4d8743b67efe16ff0, type: 2}
