@@ -79,8 +79,8 @@ public class GameManager : MonoBehaviour
 
         }
 
-        //Instantiate(GetLevelPrefab());
-         levels[PrefsManager.LevelNumber%NumberOfLevels].SetActive(true);
+        Instantiate(GetLevelPrefab());
+         //levels[PrefsManager.LevelNumber%NumberOfLevels].SetActive(true);
 
         MonetizationServices.Ads.ShowBanner();
         AnalyticsManager.LogLevelStart(PrefsManager.LevelNumber + 1);
