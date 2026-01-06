@@ -43793,7 +43793,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.5564618
+  m_Radius: 0.68
   m_Center: {x: 0, y: 0, z: -0.1}
 --- !u!114 &1463694520
 MonoBehaviour:
@@ -52968,7 +52968,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1840227910588720320, guid: 76159310c1d7ce04c8fecf2f82296831, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6555571399144375416, guid: 76159310c1d7ce04c8fecf2f82296831, type: 3}
       propertyPath: m_LocalPosition.x
