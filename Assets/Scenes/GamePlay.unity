@@ -14466,8 +14466,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 527243295}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.27712718, y: -0.047857743, z: 0.0138219, w: 0.95954114}
-  m_LocalPosition: {x: 19.233047, y: 12.101337, z: -85.75657}
+  m_LocalRotation: {x: 0.17794009, y: 0.000000015056672, z: -0.0000000027226355, w: 0.98404133}
+  m_LocalPosition: {x: 1.0158403, y: 7.421, z: -16.749468}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -43612,8 +43612,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0.00000001862645, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1.3480002, z: -0.50299996}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 2031661434}
   - {fileID: 1262284549}
@@ -43634,8 +43634,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   steeringWheel: {fileID: 1463694516}
   maxSteerAngle: 110
-  resetSpeed: 1500
-  sensitivity: 1
+  resetSpeed: 200
+  sensitivity: 1.3
   carFront: {fileID: 0}
   carBack: {fileID: 0}
   arcLength: 2
