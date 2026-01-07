@@ -136,7 +136,7 @@ public class SteeringWheel3D : MonoBehaviour
 
     void OnMouseDown()
     {
-        if (uiManager.IsInShop) return;
+        if (uiManager.IsInShop||PrefsManager.PP==0) return;
 
         if (GameManager.instance.IsTutorial && PrefsManager.LevelNumber == 2)
         {
@@ -165,7 +165,7 @@ public class SteeringWheel3D : MonoBehaviour
 
     void OnMouseDrag()
     {
-        if (!mainCam) return;
+        if (!mainCam || PrefsManager.PP == 0) return;
 
         if (GameManager.instance.IsTutorial && PrefsManager.LevelNumber == 2)
         {
