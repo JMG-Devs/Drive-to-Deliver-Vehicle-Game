@@ -58,6 +58,7 @@ namespace Monetization.Runtime.Consent
             if (GameManager.instance != null)
             {
                 GameManager.instance.eventSys.SetActive(false);
+                GameManager.instance.EnableMainMenu();
             }
           
         }
