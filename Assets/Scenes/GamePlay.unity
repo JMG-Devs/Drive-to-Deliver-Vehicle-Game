@@ -6417,6 +6417,8 @@ MonoBehaviour:
   IsTutorial: 0
   tutotialButton: {fileID: 446892857}
   NumberOfLevels: 20
+  IsTesting: 1
+  LevelNo: 1
 --- !u!1 &230100476
 GameObject:
   m_ObjectHideFlags: 0

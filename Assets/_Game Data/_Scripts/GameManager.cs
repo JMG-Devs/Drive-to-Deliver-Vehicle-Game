@@ -42,7 +42,8 @@ public class GameManager : MonoBehaviour
     [Space(10)]
     [Header("Levels Info")]
     public int NumberOfLevels;
-
+    public bool IsTesting;
+    public int LevelNo;
     private void OnEnable()
     {
 
@@ -80,7 +81,7 @@ public class GameManager : MonoBehaviour
         }
 
         Instantiate(GetLevelPrefab());
-         //levels[PrefsManager.LevelNumber%NumberOfLevels].SetActive(true);
+        //levels[PrefsManager.LevelNumber%NumberOfLevels].SetActive(true);
 
         MonetizationServices.Ads.ShowBanner();
         AnalyticsManager.LogLevelStart(PrefsManager.LevelNumber + 1);
@@ -88,7 +89,14 @@ public class GameManager : MonoBehaviour
 
     private GameObject GetLevelPrefab()
     {
-        return Resources.Load<GameObject>("LevelsPrefab/Level_" + (PrefsManager.LevelNumber % NumberOfLevels + 1));
+        if (IsTesting)
+        {
+            return Resources.Load<GameObject>("LevelsPrefab/Level_" + (LevelNo));
+        }
+        else
+        {
+            return Resources.Load<GameObject>("LevelsPrefab/Level_" + (PrefsManager.LevelNumber % NumberOfLevels + 1));
+        }
     }
     public void EnableAppropriateDashBoard()
     {
@@ -98,7 +106,7 @@ public class GameManager : MonoBehaviour
         uiManager.IsLevelStarted = true;
         if (PrefsManager.PP == 1)
         {
-        uiManager.MainMenu.SetActive(true);
+            uiManager.MainMenu.SetActive(true);
 
         }
     }
