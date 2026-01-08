@@ -6417,8 +6417,8 @@ MonoBehaviour:
   IsTutorial: 0
   tutotialButton: {fileID: 446892857}
   NumberOfLevels: 20
-  IsTesting: 1
-  LevelNo: 12
+  IsTesting: 0
+  LevelNo: 7
 --- !u!1 &230100476
 GameObject:
   m_ObjectHideFlags: 0
@@ -14470,8 +14470,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 527243295}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.20358124, y: -0.35190246, z: 0.0787059, w: 0.9102333}
-  m_LocalPosition: {x: 9.177998, y: 7.750304, z: -7.2725163}
+  m_LocalRotation: {x: 0.17794001, y: -0.00000001459895, z: 0.000000002639866, w: 0.98404133}
+  m_LocalPosition: {x: -3.5847907, y: 11.353336, z: -25.342209}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
