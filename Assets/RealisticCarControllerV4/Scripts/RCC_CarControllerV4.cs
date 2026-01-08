@@ -1643,7 +1643,6 @@ public class RCC_CarControllerV4 : RCC_Core
 
         driftingNow = Mathf.Abs(rearSidewaysSlip) > .25f;
         driftAngle = rearSidewaysSlip * 1f;
-
     }
 
     private void FixedUpdate()

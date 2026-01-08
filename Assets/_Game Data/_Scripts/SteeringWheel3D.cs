@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SteeringWheel3D : RCC_Core
 {
-    
+
 
 
     [Header("Steering Wheel Settings")]
@@ -49,12 +49,14 @@ public class SteeringWheel3D : RCC_Core
     float BrakeValue;
     private void OnDisable()
     {
-        //GassValue = 0;
-        //BrakeValue = 1;
-        //mobileInputs.brakeInput = BrakeValue;
-        //mobileInputs.throttleInput = GassValue;
-        //RCC_SceneManager.Instance.activePlayerVehicle.OverrideInputs(mobileInputs);
-        RCC_SceneManager.Instance.activePlayerVehicle.Rigid.isKinematic = true;
+        GassValue = 0;
+        BrakeValue = 1;
+        mobileInputs.brakeInput = BrakeValue;
+        mobileInputs.throttleInput = GassValue;
+        if (RCC_SceneManager.Instance && RCC_SceneManager.Instance.activePlayerVehicle)
+            RCC_SceneManager.Instance.activePlayerVehicle.OverrideInputs(mobileInputs);
+        //if (RCC_SceneManager.Instance.activePlayerVehicle)
+        //    RCC_SceneManager.Instance.activePlayerVehicle.Rigid.isKinematic = true;
     }
     void Update()
     {
@@ -90,7 +92,7 @@ public class SteeringWheel3D : RCC_Core
         }
 
         mobileInputs.throttleInput = GassValue;
-        if(GearScript.gearDirection == 0)
+        if (GearScript.gearDirection == 0)
         {
             mobileInputs.steerInput = steerValue;
 
@@ -104,7 +106,7 @@ public class SteeringWheel3D : RCC_Core
         if (RCC_SceneManager.Instance.activePlayerVehicle != null)
             RCC_SceneManager.Instance.activePlayerVehicle.OverrideInputs(mobileInputs);
     }
-    
+
     public void ToggleDirection()
     {
 

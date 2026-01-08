@@ -23533,7 +23533,7 @@ MonoBehaviour:
   SteeringWheel: {fileID: 0}
   steeringWheelRotateAround: 2
   steeringWheelAngleMultiplier: 11
-  wheelTypeChoise: 1
+  wheelTypeChoise: 2
   externalController: 0
   steeringType: 0
   steerAngleCurve:
@@ -23582,7 +23582,7 @@ MonoBehaviour:
   speed: 0
   maxspeed: 240
   limitMaxSpeed: 1
-  limitMaxSpeedAt: 250
+  limitMaxSpeedAt: 10
   engineTorqueCurve:
     serializedVersion: 2
     m_Curve:
@@ -23646,7 +23646,7 @@ MonoBehaviour:
   engineCoolRate: 1
   gears:
   - maxRatio: 1
-    maxSpeed: 240
+    maxSpeed: 10
     targetSpeedForNextGear: 180
   totalGears: 1
   currentGear: 0
@@ -23654,14 +23654,14 @@ MonoBehaviour:
   finalRatio: 3.23
   gearShiftingDelay: 0.35
   gearShiftingThreshold: 0.75
-  clutchInertia: 0.25
+  clutchInertia: 0.1
   gearShiftUpRPM: 2500
   gearShiftDownRPM: 810
   changingGear: 0
   direction: 1
   launched: 0
   autoReverse: 1
-  automaticGear: 1
+  automaticGear: 0
   automaticClutch: 1
   audioType: 3
   autoCreateEngineOffSounds: 1
