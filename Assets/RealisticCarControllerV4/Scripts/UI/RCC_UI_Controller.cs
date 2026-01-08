@@ -157,7 +157,7 @@ public class RCC_UI_Controller : RCC_Core, IPointerDownHandler, IPointerUpHandle
         } else {
 
             if (pressing)
-                input += Time.deltaTime * Sensitivity;
+                input = 1/*+= Time.deltaTime * Sensitivity*/;
             else
                 input -= Time.deltaTime * Gravity;
 
@@ -185,5 +185,6 @@ public class RCC_UI_Controller : RCC_Core, IPointerDownHandler, IPointerUpHandle
             slider.value = 0f;
 
     }
+
 
 }
