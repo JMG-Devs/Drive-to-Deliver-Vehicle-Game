@@ -56,7 +56,7 @@ public class GearScript : RCC_Core
                 RCCSceneManager.activePlayerVehicle.StartCoroutine("ChangeGear", -1);
                 RCCSceneManager.activePlayerVehicle.NGear = false;
                 gearDirection = -1;
-                gearSlider.value = 1;
+                //gearSlider.value = 1;
                 ForwardCam.SetActive(false);
                 ReverseCam.SetActive(true);
                 steeringWheel3D.isReversing = true;
@@ -75,7 +75,7 @@ public class GearScript : RCC_Core
                 RCCSceneManager.activePlayerVehicle.StartCoroutine("ChangeGear", 0);
                 RCCSceneManager.activePlayerVehicle.NGear = false;
                 gearDirection = 0;
-                gearSlider.value = 0;
+                //gearSlider.value = 0;
                 ForwardCam.SetActive(true);
                 ReverseCam.SetActive(false);
                 steeringWheel3D.isReversing = false;
