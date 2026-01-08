@@ -40847,7 +40847,7 @@ MonoBehaviour:
   blendShapeIndex: 0
   uiManager: {fileID: 0}
   vehicleSource: {fileID: 1344012382}
-  GearScript: {fileID: 0}
+  GearScript: {fileID: 526006265}
 --- !u!120 &1559175728
 LineRenderer:
   serializedVersion: 2
@@ -43089,7 +43089,7 @@ MonoBehaviour:
   blendShapeIndex: 0
   uiManager: {fileID: 0}
   vehicleSource: {fileID: 1344012382}
-  GearScript: {fileID: 0}
+  GearScript: {fileID: 510250050}
 --- !u!120 &1622449363
 LineRenderer:
   serializedVersion: 2
