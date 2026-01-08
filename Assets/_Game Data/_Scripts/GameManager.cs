@@ -96,9 +96,18 @@ public class GameManager : MonoBehaviour
         if (uiManager.IsLevelStarted) return;
 
         uiManager.IsLevelStarted = true;
+        if (PrefsManager.PP == 1)
+        {
+        uiManager.MainMenu.SetActive(true);
+
+        }
+    }
+    public void EnableMainMenu()
+    {
+        //Enables MainMenu Through Privacy Policy Continue if Policy is accepted in gameplay rathar than Splash
+
         uiManager.MainMenu.SetActive(true);
     }
-
 
     public void DashBoardAnimateOut()
     {

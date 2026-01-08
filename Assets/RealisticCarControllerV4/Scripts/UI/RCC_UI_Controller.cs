@@ -88,7 +88,9 @@ public class RCC_UI_Controller : RCC_Core, IPointerDownHandler, IPointerUpHandle
     /// <param name="eventData">Pointer data associated with the press event.</param>
     public void OnPointerDown(PointerEventData eventData) {
 
+
         pressing = true;
+
 
     }
 
@@ -104,7 +106,7 @@ public class RCC_UI_Controller : RCC_Core, IPointerDownHandler, IPointerUpHandle
 
     private void OnMouseDown()
     {
-        if (!Is3d) return;
+        if (!Is3d||PrefsManager.PP==0) return;
 
         pressing = true;
     }
