@@ -8,8 +8,8 @@ public class DashBoardManager : MonoBehaviour
     public GameManager gameManager;
     public Transform dashBoardRootForSteering, dashBoardRootForGear, RootForDashBoardItem, RootForStickers;
     public GameObject defaultSteering, defaultGear;
-    public RCC_MobileButtons rccButtonScript;
-    public RCC_UI_Controller selfRCCInputs;
+    //public RCC_MobileButtons rccButtonScript;
+    //public RCC_UI_Controller selfRCCInputs;
     public SteeringWheel3D self3dController;
     public GearScript selfGearScript;
     public bool IsPlaneDashBoard;
@@ -150,9 +150,9 @@ public class DashBoardManager : MonoBehaviour
 
     public void FeedRCCReferecne()
     {
-        rccButtonScript.gasButton = selfRCCInputs;
-        rccButtonScript.brakeButton = selfRCCInputs;
-        rccButtonScript.steeringWheel3D = self3dController;
-        rccButtonScript.gameObject.SetActive(true);
+        //rccButtonScript.gasButton = selfRCCInputs;
+        //rccButtonScript.brakeButton = selfRCCInputs;
+        //rccButtonScript.steeringWheel3D = self3dController;
+        //rccButtonScript.gameObject.SetActive(true);
     }
 }
