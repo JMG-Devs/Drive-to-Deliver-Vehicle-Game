@@ -421,7 +421,7 @@ public class RCC_SceneManager : RCC_Singleton<RCC_SceneManager> {
         if (allVehicles.Contains(RCC))
             allVehicles.Remove(RCC);
 
-        StartCoroutine(CheckMissingRecorders());
+        //StartCoroutine(CheckMissingRecorders());
 
     }
 

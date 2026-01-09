@@ -23588,27 +23588,27 @@ MonoBehaviour:
     m_Curve:
     - serializedVersion: 3
       time: 800
-      value: 150
-      inSlope: 0.011904762
-      outSlope: 0.011904762
+      value: 250
+      inSlope: 0.019841272
+      outSlope: 0.019841272
       tangentMode: 0
       weightedMode: 0
       inWeight: 0.33333334
       outWeight: 0.33333334
     - serializedVersion: 3
       time: 5000
-      value: 200
-      inSlope: 0.10595238
-      outSlope: 0.10595238
+      value: 333.33334
+      inSlope: 0.1765873
+      outSlope: 0.1765873
       tangentMode: 0
       weightedMode: 0
       inWeight: 0.33333334
       outWeight: 0.33333334
     - serializedVersion: 3
       time: 5500
-      value: 300
-      inSlope: 0.2
-      outSlope: 0.2
+      value: 500
+      inSlope: 0.3333333
+      outSlope: 0.3333333
       tangentMode: 0
       weightedMode: 0
       inWeight: 0.33333334
@@ -23617,7 +23617,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   autoGenerateEngineRPMCurve: 1
-  maxEngineTorque: 300
+  maxEngineTorque: 500
   maxEngineTorqueAtRPM: 5500
   minEngineRPM: 800
   maxEngineRPM: 5000
