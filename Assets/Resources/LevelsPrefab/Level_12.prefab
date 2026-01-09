@@ -19283,6 +19283,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sp: {fileID: 6135340505236572215}
   IsStarting: 0
+  IsNewVehicle: 0
   sparkParticle: {fileID: 0}
 --- !u!1 &4896500690627950881
 GameObject:
@@ -20380,7 +20381,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sp: {fileID: 9154064453948151339}
-  IsStarting: 1
+  IsStarting: 0
+  IsNewVehicle: 1
   sparkParticle: {fileID: 0}
 --- !u!1 &5885242214512713975
 GameObject:
