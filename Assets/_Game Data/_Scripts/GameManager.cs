@@ -33,7 +33,7 @@ public class GameManager : MonoBehaviour
     public Joystick3D joystick3DScript;
     public SkinnedMeshRenderer steeringFrontArcMesh, steeringBackArcMesh;
     public GameObject rewardSystemCam;
-    public GameObject rccCanvas, eventSys;
+    public GameObject eventSys;
     public GameObject[] TutorialsArray;
     public GameObject ActiveTutorial;
     public bool IsNewVehicleLevel, IsTutorial;
@@ -202,7 +202,6 @@ public class GameManager : MonoBehaviour
     {
         rewardSystemCam.SetActive(true);
         brain.gameObject.SetActive(false);
-        rccCanvas.SetActive(false);
         uiManager.DummyBG.SetActive(false);
     }
 
