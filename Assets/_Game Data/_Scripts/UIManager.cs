@@ -15,7 +15,7 @@ public class UIManager : MonoBehaviour
     }
 
     public GameObject levelCompleteScreen, rewardScreen, levelFailScreen,
-        DummyBG, MainMenu, SettingsPannel,GamePlay,Shop,NewVehiclePannel,ShopButton,HitandRun,Accident;
+        DummyBG, MainMenu, SettingsPannel,GamePlay,Shop,NewVehiclePannel,ShopButton,settingsButton,HitandRun,Accident;
     public bool IsInShop,IsLevelStarted;
 
     private void OnEnable()
@@ -23,6 +23,7 @@ public class UIManager : MonoBehaviour
         if (PrefsManager.LevelNumber < 3)
         {
             ShopButton.SetActive(false);
+            settingsButton.SetActive(false);
         }
     }
 

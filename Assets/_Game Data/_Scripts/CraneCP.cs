@@ -58,8 +58,8 @@ public class CraneCP : MonoBehaviour
             selfCollider.enabled = false;
             gameManager.steeringWheel3D.enabled = false;
             gameManager.gearScript.enabled = false;
-            gameManager.dashBoardManager.selfRCCInputs.pressing = false;
-            gameManager.dashBoardManager.selfRCCInputs.enabled = false;
+            //gameManager.dashBoardManager.selfRCCInputs.pressing = false;
+            //gameManager.dashBoardManager.selfRCCInputs.enabled = false;
             gameManager.DashBoardAnimateOut();
             craneDashBoard.SetActive(true);
             detector.SetActive(true);
@@ -78,7 +78,7 @@ public class CraneCP : MonoBehaviour
         gameManager.steeringWheel3D.enabled = true;
         gameManager.gearScript.enabled = true;
        // gameManager.dashBoardManager.selfRCCInputs.pressing = true;
-        gameManager.dashBoardManager.selfRCCInputs.enabled = true;
+        //gameManager.dashBoardManager.selfRCCInputs.enabled = true;
         gameManager.DashBoardAnimateIn();
         message.SetActive(true);
     }

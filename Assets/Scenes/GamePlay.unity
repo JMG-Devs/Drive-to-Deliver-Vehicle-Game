@@ -6416,7 +6416,7 @@ MonoBehaviour:
   IsTutorial: 0
   tutotialButton: {fileID: 446892857}
   NumberOfLevels: 20
-  IsTesting: 1
+  IsTesting: 0
   LevelNo: 4
 --- !u!1 &230100476
 GameObject:
@@ -21873,6 +21873,7 @@ MonoBehaviour:
   Shop: {fileID: 1915701031}
   NewVehiclePannel: {fileID: 1754039566}
   ShopButton: {fileID: 135288146}
+  settingsButton: {fileID: 115857783}
   HitandRun: {fileID: 1878785255}
   Accident: {fileID: 910835708}
   IsInShop: 0
@@ -34531,6 +34532,7 @@ GameObject:
   - component: {fileID: 1351265924}
   - component: {fileID: 1351265927}
   - component: {fileID: 1351265926}
+  - component: {fileID: 1351265928}
   m_Layer: 15
   m_Name: Free Claim
   m_TagString: Untagged
@@ -34760,6 +34762,39 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1351265928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351265922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19b7e2285c104f6ca47d583f3e5444f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 300
+  m_EffectMaterial: {fileID: 2100000, guid: 9dc7e810a87b444ab96919f3215c2fe5, type: 2}
+  m_EffectFactor: 0
+  m_Width: 0.184
+  m_Rotation: 122
+  m_Softness: 1
+  m_Brightness: 1
+  m_Gloss: 0.087
+  m_EffectArea: 0
+  m_Player:
+    play: 1
+    initialPlayDelay: 0
+    duration: 1
+    loop: 1
+    loopDelay: 0
+    updateMode: 0
+  m_Play: 0
+  m_Loop: 0
+  m_Duration: 1
+  m_LoopDelay: 1
+  m_UpdateMode: 0
 --- !u!1 &1355699797
 GameObject:
   m_ObjectHideFlags: 0
@@ -59191,7 +59226,7 @@ MonoBehaviour:
   hasOnPlay: 0
   hasOnUpdate: 0
   hasOnStepComplete: 0
-  hasOnComplete: 1
+  hasOnComplete: 0
   hasOnTweenCreated: 0
   hasOnRewind: 0
   onStart:
@@ -59312,8 +59347,6 @@ MonoBehaviour:
   RootForStickers: {fileID: 2133940803}
   defaultSteering: {fileID: 239487051494035624}
   defaultGear: {fileID: 2339298996565174353}
-  rccButtonScript: {fileID: 0}
-  selfRCCInputs: {fileID: 1559175726}
   self3dController: {fileID: 1559175727}
   selfGearScript: {fileID: 526006265}
   IsPlaneDashBoard: 0
@@ -59577,8 +59610,6 @@ MonoBehaviour:
   RootForStickers: {fileID: 1079266286}
   defaultSteering: {fileID: 8606822333564047825}
   defaultGear: {fileID: 2339298997448422977}
-  rccButtonScript: {fileID: 0}
-  selfRCCInputs: {fileID: 1622449361}
   self3dController: {fileID: 1622449362}
   selfGearScript: {fileID: 510250050}
   IsPlaneDashBoard: 0
@@ -59600,7 +59631,7 @@ MonoBehaviour:
   hasOnPlay: 0
   hasOnUpdate: 0
   hasOnStepComplete: 0
-  hasOnComplete: 1
+  hasOnComplete: 0
   hasOnTweenCreated: 0
   hasOnRewind: 0
   onStart:
@@ -59757,8 +59788,6 @@ MonoBehaviour:
   RootForStickers: {fileID: 1281220776}
   defaultSteering: {fileID: 239487051057918827}
   defaultGear: {fileID: 2339298996565174353}
-  rccButtonScript: {fileID: 0}
-  selfRCCInputs: {fileID: 7264373952974459698}
   self3dController: {fileID: 7264373952974459697}
   selfGearScript: {fileID: 8975366916746165195}
   IsPlaneDashBoard: 1
@@ -63645,8 +63674,6 @@ MonoBehaviour:
   RootForStickers: {fileID: 1540638581}
   defaultSteering: {fileID: 1088317819438882646}
   defaultGear: {fileID: 2651692370810149359}
-  rccButtonScript: {fileID: 0}
-  selfRCCInputs: {fileID: 1463694520}
   self3dController: {fileID: 1463694517}
   selfGearScript: {fileID: 2096394514}
   IsPlaneDashBoard: 0
@@ -63668,7 +63695,7 @@ MonoBehaviour:
   hasOnPlay: 0
   hasOnUpdate: 0
   hasOnStepComplete: 0
-  hasOnComplete: 1
+  hasOnComplete: 0
   hasOnTweenCreated: 0
   hasOnRewind: 0
   onStart:
