@@ -54033,6 +54033,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6123255171110699500, guid: 59c67794430292a4daf6c948ff72fcdf, type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6796781293746508116, guid: 59c67794430292a4daf6c948ff72fcdf, type: 3}
       propertyPath: m_Layer
       value: 8
