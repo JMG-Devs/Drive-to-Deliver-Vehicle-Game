@@ -40831,8 +40831,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   steeringWheel: {fileID: 1559175725}
   maxSteerAngle: 110
-  resetSpeed: 1500
-  sensitivity: 1
+  resetSpeed: 200
+  sensitivity: 1.3
   carFront: {fileID: 0}
   carBack: {fileID: 0}
   arcLength: 2
@@ -43073,8 +43073,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   steeringWheel: {fileID: 1622449360}
   maxSteerAngle: 110
-  resetSpeed: 1500
-  sensitivity: 1
+  resetSpeed: 200
+  sensitivity: 1.3
   carFront: {fileID: 0}
   carBack: {fileID: 0}
   arcLength: 2
@@ -67628,8 +67628,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   steeringWheel: {fileID: 4572501055543055353}
   maxSteerAngle: 110
-  resetSpeed: 1500
-  sensitivity: 1
+  resetSpeed: 200
+  sensitivity: 1.3
   carFront: {fileID: 0}
   carBack: {fileID: 0}
   arcLength: 2

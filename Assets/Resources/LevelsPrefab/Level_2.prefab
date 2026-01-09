@@ -5534,7 +5534,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4588712396374629477}
   - component: {fileID: 1827663208027531709}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5587,7 +5587,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6968552009671526479}
   - component: {fileID: 6225965774164915701}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: G (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17179,7 +17179,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6332035766062999164}
   - component: {fileID: 7642413423049136970}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17304,7 +17304,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8781985896619694647}
   - component: {fileID: 427520125961102906}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17749,33 +17749,33 @@ MonoBehaviour:
   speed: 0
   maxspeed: 240
   limitMaxSpeed: 1
-  limitMaxSpeedAt: 250
+  limitMaxSpeedAt: 10
   engineTorqueCurve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
       time: 700
-      value: 150
-      inSlope: 0.045454547
-      outSlope: 0.045454547
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1800
-      value: 200
-      inSlope: 0.036240786
-      outSlope: 0.036240786
+      value: 250
+      inSlope: 0.052083332
+      outSlope: 0.052083332
       tangentMode: 0
       weightedMode: 0
       inWeight: 0.33333334
       outWeight: 0.33333334
     - serializedVersion: 3
       time: 5500
-      value: 300
-      inSlope: 0.027027028
-      outSlope: 0.027027028
+      value: 500
+      inSlope: 0.017269738
+      outSlope: 0.017269738
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 15000
+      value: 333.33334
+      inSlope: -0.017543858
+      outSlope: -0.017543858
       tangentMode: 0
       weightedMode: 0
       inWeight: 0.33333334
@@ -17784,15 +17784,15 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   autoGenerateEngineRPMCurve: 1
-  maxEngineTorque: 300
+  maxEngineTorque: 500
   maxEngineTorqueAtRPM: 5500
   minEngineRPM: 700
-  maxEngineRPM: 1800
+  maxEngineRPM: 15000
   engineRPM: 0
   engineRPMRaw: 0
   engineInertia: 0.4
   useRevLimiter: 1
-  useExhaustFlame: 1
+  useExhaustFlame: 0
   RunEngineAtAwake: 1
   engineRunning: 0
   useSteeringLimiter: 1
@@ -17812,38 +17812,23 @@ MonoBehaviour:
   engineHeatRate: 1
   engineCoolRate: 1
   gears:
-  - maxRatio: 4.35
-    maxSpeed: 40
-    targetSpeedForNextGear: 30
-  - maxRatio: 2.5
-    maxSpeed: 80
-    targetSpeedForNextGear: 60
-  - maxRatio: 1.66
-    maxSpeed: 120
-    targetSpeedForNextGear: 90
-  - maxRatio: 1.23
-    maxSpeed: 160
-    targetSpeedForNextGear: 120
   - maxRatio: 1
-    maxSpeed: 200
-    targetSpeedForNextGear: 150
-  - maxRatio: 0.85
-    maxSpeed: 240
+    maxSpeed: 10
     targetSpeedForNextGear: 180
-  totalGears: 6
+  totalGears: 1
   currentGear: 0
   NGear: 0
   finalRatio: 3.23
   gearShiftingDelay: 0.35
   gearShiftingThreshold: 0.75
-  clutchInertia: 0.25
-  gearShiftUpRPM: 1200
+  clutchInertia: 0.1
+  gearShiftUpRPM: 5000
   gearShiftDownRPM: 710
   changingGear: 0
   direction: 1
   launched: 0
   autoReverse: 1
-  automaticGear: 1
+  automaticGear: 0
   automaticClutch: 1
   audioType: 0
   autoCreateEngineOffSounds: 1
@@ -23508,7 +23493,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7613222120499826779}
   - component: {fileID: 4947135794812416473}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23930,7 +23915,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9045526501777467700, guid: db76d78e2fb8af847ab816696c26f67a, type: 3}
       propertyPath: m_Layer
-      value: 14
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24156,7 +24141,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9045526501777467700, guid: db76d78e2fb8af847ab816696c26f67a, type: 3}
       propertyPath: m_Layer
-      value: 14
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24441,7 +24426,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9045526501777467700, guid: db76d78e2fb8af847ab816696c26f67a, type: 3}
       propertyPath: m_Layer
-      value: 14
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24523,7 +24508,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9045526501777467700, guid: db76d78e2fb8af847ab816696c26f67a, type: 3}
       propertyPath: m_Layer
-      value: 14
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24671,7 +24656,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9045526501777467700, guid: db76d78e2fb8af847ab816696c26f67a, type: 3}
       propertyPath: m_Layer
-      value: 14
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24753,7 +24738,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9045526501777467700, guid: db76d78e2fb8af847ab816696c26f67a, type: 3}
       propertyPath: m_Layer
-      value: 14
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25271,7 +25256,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9045526501777467700, guid: db76d78e2fb8af847ab816696c26f67a, type: 3}
       propertyPath: m_Layer
-      value: 14
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27509,7 +27494,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9045526501777467700, guid: db76d78e2fb8af847ab816696c26f67a, type: 3}
       propertyPath: m_Layer
-      value: 14
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27731,7 +27716,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9045526501777467700, guid: db76d78e2fb8af847ab816696c26f67a, type: 3}
       propertyPath: m_Layer
-      value: 14
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29780,7 +29765,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9045526501777467700, guid: db76d78e2fb8af847ab816696c26f67a, type: 3}
       propertyPath: m_Layer
-      value: 14
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -30139,7 +30124,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9045526501777467700, guid: db76d78e2fb8af847ab816696c26f67a, type: 3}
       propertyPath: m_Layer
-      value: 14
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -30221,7 +30206,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9045526501777467700, guid: db76d78e2fb8af847ab816696c26f67a, type: 3}
       propertyPath: m_Layer
-      value: 14
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -30599,7 +30584,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9045526501777467700, guid: db76d78e2fb8af847ab816696c26f67a, type: 3}
       propertyPath: m_Layer
-      value: 14
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -31081,7 +31066,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9045526501777467700, guid: db76d78e2fb8af847ab816696c26f67a, type: 3}
       propertyPath: m_Layer
-      value: 14
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -31366,7 +31351,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9045526501777467700, guid: db76d78e2fb8af847ab816696c26f67a, type: 3}
       propertyPath: m_Layer
-      value: 14
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -31448,7 +31433,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9045526501777467700, guid: db76d78e2fb8af847ab816696c26f67a, type: 3}
       propertyPath: m_Layer
-      value: 14
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
