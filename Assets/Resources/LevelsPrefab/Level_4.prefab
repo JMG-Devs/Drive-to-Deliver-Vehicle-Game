@@ -777,7 +777,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2230389607485940346}
   - component: {fileID: 5232433561986219572}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Borders
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -983,7 +983,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4032646355212479018}
-  m_Layer: 14
+  m_Layer: 8
   m_Name: Delivered Items
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1162,7 +1162,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3220167675290535742}
   - component: {fileID: 5586923009261476304}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Borders
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12522,7 +12522,7 @@ Transform:
   m_GameObject: {fileID: 4440963386902158554}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 11.45, y: 0.635, z: 2.26}
+  m_LocalPosition: {x: 11.45, y: 1.07, z: 2.12}
   m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -12594,7 +12594,7 @@ MonoBehaviour:
   SteeringWheel: {fileID: 0}
   steeringWheelRotateAround: 2
   steeringWheelAngleMultiplier: 11
-  wheelTypeChoise: 1
+  wheelTypeChoise: 2
   externalController: 0
   steeringType: 0
   steerAngleCurve:
@@ -12642,34 +12642,34 @@ MonoBehaviour:
   downForce: 25
   speed: 0
   maxspeed: 240
-  limitMaxSpeed: 0
-  limitMaxSpeedAt: 5
+  limitMaxSpeed: 1
+  limitMaxSpeedAt: 10
   engineTorqueCurve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 20
-      value: 150
-      inSlope: 0.042372882
-      outSlope: 0.042372882
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1200
-      value: 200
-      inSlope: 0.032814346
-      outSlope: 0.032814346
+      time: 700
+      value: 1000
+      inSlope: 0.20833333
+      outSlope: 0.20833333
       tangentMode: 0
       weightedMode: 0
       inWeight: 0.33333334
       outWeight: 0.33333334
     - serializedVersion: 3
       time: 5500
-      value: 300
-      inSlope: 0.023255814
-      outSlope: 0.023255814
+      value: 2000
+      inSlope: 0.030092597
+      outSlope: 0.030092597
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 10000
+      value: 1333.3334
+      inSlope: -0.14814813
+      outSlope: -0.14814813
       tangentMode: 0
       weightedMode: 0
       inWeight: 0.33333334
@@ -12678,15 +12678,15 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   autoGenerateEngineRPMCurve: 1
-  maxEngineTorque: 300
+  maxEngineTorque: 2000
   maxEngineTorqueAtRPM: 5500
-  minEngineRPM: 20
-  maxEngineRPM: 1200
+  minEngineRPM: 700
+  maxEngineRPM: 10000
   engineRPM: 0
   engineRPMRaw: 0
   engineInertia: 0.4
   useRevLimiter: 1
-  useExhaustFlame: 1
+  useExhaustFlame: 0
   RunEngineAtAwake: 1
   engineRunning: 0
   useSteeringLimiter: 1
@@ -12706,40 +12706,25 @@ MonoBehaviour:
   engineHeatRate: 1
   engineCoolRate: 1
   gears:
-  - maxRatio: 4.35
-    maxSpeed: 40
-    targetSpeedForNextGear: 30
-  - maxRatio: 2.5
-    maxSpeed: 80
-    targetSpeedForNextGear: 60
-  - maxRatio: 1.66
-    maxSpeed: 120
-    targetSpeedForNextGear: 90
-  - maxRatio: 1.23
-    maxSpeed: 160
-    targetSpeedForNextGear: 120
   - maxRatio: 1
-    maxSpeed: 200
-    targetSpeedForNextGear: 150
-  - maxRatio: 0.85
-    maxSpeed: 240
+    maxSpeed: 10
     targetSpeedForNextGear: 180
-  totalGears: 6
+  totalGears: 1
   currentGear: 0
   NGear: 0
   finalRatio: 3.23
   gearShiftingDelay: 0.35
   gearShiftingThreshold: 0.75
   clutchInertia: 0.9
-  gearShiftUpRPM: 1100
-  gearShiftDownRPM: 100
+  gearShiftUpRPM: 5000
+  gearShiftDownRPM: 750
   changingGear: 0
   direction: 1
   launched: 0
   autoReverse: 1
   automaticGear: 0
   automaticClutch: 1
-  audioType: 0
+  audioType: 3
   autoCreateEngineOffSounds: 1
   engineStartClip: {fileID: 0}
   engineClipHigh: {fileID: 0}
@@ -12794,7 +12779,7 @@ MonoBehaviour:
     damageResolution: 100
     damageFilter:
       serializedVersion: 2
-      m_Bits: 4294967295
+      m_Bits: 130871
     damageRadius: 0.75
     damageMultiplier: 1
     maximumDamage: 0.5
@@ -12817,7 +12802,7 @@ MonoBehaviour:
     lights: []
     wheels: []
     octrees: []
-  useDamage: 1
+  useDamage: 0
   useCollisionParticles: 1
   useCollisionAudio: 1
   maximumContactSparkle: 5
@@ -23288,7 +23273,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6717054035441796944}
   - component: {fileID: 5752588433800099285}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Borders (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29322,7 +29307,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5783396886124729683}
   - component: {fileID: 6222435694608193428}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Borders
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29391,7 +29376,7 @@ Transform:
   m_GameObject: {fileID: 6219441033028310404}
   serializedVersion: 2
   m_LocalRotation: {x: 0.31267765, y: -0.25157395, z: 0.08626426, w: 0.9118672}
-  m_LocalPosition: {x: 17.059399, y: 10.075, z: -8.2778}
+  m_LocalPosition: {x: 17.059399, y: 10.51, z: -8.4178}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -30296,7 +30281,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8389348380864693923}
   - component: {fileID: 8423555778743461904}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Borders
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30824,7 +30809,7 @@ Transform:
   m_GameObject: {fileID: 7879741728250924074}
   serializedVersion: 2
   m_LocalRotation: {x: 0.2471664, y: -0.27047548, z: 0.07206545, w: 0.92766285}
-  m_LocalPosition: {x: 16.5094, y: 6.775, z: -6.7778}
+  m_LocalPosition: {x: 16.5094, y: 7.21, z: -6.9178}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -45208,7 +45193,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2439135616850721372, guid: 7a7694a96997cc04bb14001450becdad, type: 3}
       propertyPath: m_Layer
-      value: 14
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -50843,7 +50828,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2439135616850721372, guid: 7a7694a96997cc04bb14001450becdad, type: 3}
       propertyPath: m_Layer
-      value: 14
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -60901,7 +60886,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2439135616850721372, guid: 7a7694a96997cc04bb14001450becdad, type: 3}
       propertyPath: m_Layer
-      value: 14
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -64113,7 +64098,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2439135616850721372, guid: 7a7694a96997cc04bb14001450becdad, type: 3}
       propertyPath: m_Layer
-      value: 14
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -74376,7 +74361,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2439135616850721372, guid: 7a7694a96997cc04bb14001450becdad, type: 3}
       propertyPath: m_Layer
-      value: 14
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
