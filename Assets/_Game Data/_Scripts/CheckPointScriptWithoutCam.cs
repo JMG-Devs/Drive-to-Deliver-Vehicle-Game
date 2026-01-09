@@ -33,8 +33,8 @@ public class CheckPointScriptWithoutCam : MonoBehaviour
             selfCollider.enabled = false;
             gameManager.steeringWheel3D.enabled = false;
             gameManager.gearScript.enabled = false;
-            gameManager.dashBoardManager.selfRCCInputs.pressing = false;
-            gameManager.dashBoardManager.selfRCCInputs.enabled = false;
+            //gameManager.dashBoardManager.selfRCCInputs.pressing = false;
+            //gameManager.dashBoardManager.selfRCCInputs.enabled = false;
             gameManager.DashBoardAnimateOut();
 
             // GameManager.instance.dashBoardManager.rccButtonScript.enabled = false;
@@ -60,7 +60,7 @@ public class CheckPointScriptWithoutCam : MonoBehaviour
                 gameManager.steeringWheel3D.enabled = true;
                 gameManager.gearScript.enabled = true;
               //  gameManager.dashBoardManager.selfRCCInputs.pressing = true;
-                gameManager.dashBoardManager.selfRCCInputs.enabled = true;
+                //gameManager.dashBoardManager.selfRCCInputs.enabled = true;
                 gameManager.DashBoardAnimateIn();
                 if (actionToPerform != null)
                 {

@@ -52,8 +52,8 @@ public class CraneDropCP : MonoBehaviour
             selfCollider.enabled = false;
             gameManager.steeringWheel3D.enabled = false;
             gameManager.gearScript.enabled = false;
-            gameManager.dashBoardManager.selfRCCInputs.pressing = false;
-            gameManager.dashBoardManager.selfRCCInputs.enabled = false;
+            //gameManager.dashBoardManager.selfRCCInputs.pressing = false;
+            //gameManager.dashBoardManager.selfRCCInputs.enabled = false;
             gameManager.DashBoardAnimateOut();
             craneDashBoard.SetActive(true);
             detector.SetActive(true);

@@ -134,8 +134,8 @@ public class GameManager : MonoBehaviour
         steeringWheel3D.steeringArcMesh.enabled = false;
         steeringWheel3D.enabled = false;
         gearScript.enabled = false;
-        dashBoardManager.selfRCCInputs.pressing = false;
-        dashBoardManager.selfRCCInputs.enabled = false;
+        //dashBoardManager.selfRCCInputs.pressing = false;
+        //dashBoardManager.selfRCCInputs.enabled = false;
         DashBoardAnimateOut();
         PrefsManager.LevelNumber += 1;
         AnalyticsManager.LogLevelCompleteSuccessful(PrefsManager.LevelNumber);
@@ -190,8 +190,8 @@ public class GameManager : MonoBehaviour
         steeringWheel3D.steeringArcMesh.enabled = false;
         steeringWheel3D.enabled = false;
         gearScript.enabled = false;
-        dashBoardManager.selfRCCInputs.pressing = false;
-        dashBoardManager.selfRCCInputs.enabled = false;
+        //dashBoardManager.selfRCCInputs.pressing = false;
+        //dashBoardManager.selfRCCInputs.enabled = false;
         DashBoardAnimateOut();
         Invoke(nameof(LevelFailedSwitch), 2);
         AnalyticsManager.LogLevelCompleteFailed(PrefsManager.LevelNumber + 1);

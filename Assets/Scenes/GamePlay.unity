@@ -59226,7 +59226,7 @@ MonoBehaviour:
   hasOnPlay: 0
   hasOnUpdate: 0
   hasOnStepComplete: 0
-  hasOnComplete: 1
+  hasOnComplete: 0
   hasOnTweenCreated: 0
   hasOnRewind: 0
   onStart:
@@ -59347,8 +59347,6 @@ MonoBehaviour:
   RootForStickers: {fileID: 2133940803}
   defaultSteering: {fileID: 239487051494035624}
   defaultGear: {fileID: 2339298996565174353}
-  rccButtonScript: {fileID: 0}
-  selfRCCInputs: {fileID: 1559175726}
   self3dController: {fileID: 1559175727}
   selfGearScript: {fileID: 526006265}
   IsPlaneDashBoard: 0
@@ -59612,8 +59610,6 @@ MonoBehaviour:
   RootForStickers: {fileID: 1079266286}
   defaultSteering: {fileID: 8606822333564047825}
   defaultGear: {fileID: 2339298997448422977}
-  rccButtonScript: {fileID: 0}
-  selfRCCInputs: {fileID: 1622449361}
   self3dController: {fileID: 1622449362}
   selfGearScript: {fileID: 510250050}
   IsPlaneDashBoard: 0
@@ -59635,7 +59631,7 @@ MonoBehaviour:
   hasOnPlay: 0
   hasOnUpdate: 0
   hasOnStepComplete: 0
-  hasOnComplete: 1
+  hasOnComplete: 0
   hasOnTweenCreated: 0
   hasOnRewind: 0
   onStart:
@@ -59792,8 +59788,6 @@ MonoBehaviour:
   RootForStickers: {fileID: 1281220776}
   defaultSteering: {fileID: 239487051057918827}
   defaultGear: {fileID: 2339298996565174353}
-  rccButtonScript: {fileID: 0}
-  selfRCCInputs: {fileID: 7264373952974459698}
   self3dController: {fileID: 7264373952974459697}
   selfGearScript: {fileID: 8975366916746165195}
   IsPlaneDashBoard: 1
@@ -63680,8 +63674,6 @@ MonoBehaviour:
   RootForStickers: {fileID: 1540638581}
   defaultSteering: {fileID: 1088317819438882646}
   defaultGear: {fileID: 2651692370810149359}
-  rccButtonScript: {fileID: 0}
-  selfRCCInputs: {fileID: 1463694520}
   self3dController: {fileID: 1463694517}
   selfGearScript: {fileID: 2096394514}
   IsPlaneDashBoard: 0
@@ -63703,7 +63695,7 @@ MonoBehaviour:
   hasOnPlay: 0
   hasOnUpdate: 0
   hasOnStepComplete: 0
-  hasOnComplete: 1
+  hasOnComplete: 0
   hasOnTweenCreated: 0
   hasOnRewind: 0
   onStart:
