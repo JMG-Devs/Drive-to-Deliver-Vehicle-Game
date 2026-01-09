@@ -328,7 +328,7 @@ public class RCC_SceneManager : RCC_Singleton<RCC_SceneManager> {
         }
 
         // Validate recorders after a short delay.
-        StartCoroutine(CheckMissingRecorders());
+        //StartCoroutine(CheckMissingRecorders());
 
         // If configured, register the newly spawned vehicle as the player vehicle by default.
         if (registerLastSpawnedVehicleAsPlayerVehicle)
@@ -421,7 +421,7 @@ public class RCC_SceneManager : RCC_Singleton<RCC_SceneManager> {
         if (allVehicles.Contains(RCC))
             allVehicles.Remove(RCC);
 
-        StartCoroutine(CheckMissingRecorders());
+        //StartCoroutine(CheckMissingRecorders());
 
     }
 
