@@ -42396,6 +42396,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 3413945860785907092, guid: b9f5327c877fff142a1af275fc806a6c, type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5468429471441066073, guid: b9f5327c877fff142a1af275fc806a6c, type: 3}
       propertyPath: m_Radius
       value: 0.5
@@ -42519,6 +42523,10 @@ PrefabInstance:
     - target: {fileID: 6648928882820139466, guid: b9f5327c877fff142a1af275fc806a6c, type: 3}
       propertyPath: engineTorqueCurve.m_Curve.Array.data[2].outSlope
       value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 6879020212781190217, guid: b9f5327c877fff142a1af275fc806a6c, type: 3}
+      propertyPath: m_CastShadows
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7113816186484677794, guid: b9f5327c877fff142a1af275fc806a6c, type: 3}
       propertyPath: m_Layer
