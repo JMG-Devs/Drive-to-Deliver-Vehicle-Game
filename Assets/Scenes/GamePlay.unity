@@ -6405,7 +6405,6 @@ MonoBehaviour:
   steeringFrontArcMesh: {fileID: 0}
   steeringBackArcMesh: {fileID: 0}
   rewardSystemCam: {fileID: 224305425}
-  rccCanvas: {fileID: 0}
   eventSys: {fileID: 1382067905}
   TutorialsArray:
   - {fileID: 2031661433}
@@ -6417,8 +6416,8 @@ MonoBehaviour:
   IsTutorial: 0
   tutotialButton: {fileID: 446892857}
   NumberOfLevels: 20
-  IsTesting: 0
-  LevelNo: 7
+  IsTesting: 1
+  LevelNo: 4
 --- !u!1 &230100476
 GameObject:
   m_ObjectHideFlags: 0
